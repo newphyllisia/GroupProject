@@ -1,7 +1,21 @@
-.navbar-brand{background-color: #948f93;
+.navbar-brand{background-color: #379e22;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;}
 
   .navbar-brand{align-content: center;}
+
+
+  .table{background-color: rgb(34, 165, 67);}
+
+  .new{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+
+  .newgit{width: 20px;
+  height: 15px;}
+
+  <a href="https://www.linkedin.com/in/phyllisia-howard-16a93717b/"><button><img class="linkedlogo" src="css/pasted image 0.png"></button></a>
