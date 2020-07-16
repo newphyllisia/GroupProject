@@ -1,8 +1,11 @@
-.navbar-brand{background-color: #379e22;
-  color: white;
+.navbar-brand{background-color: #60cf4a2c;
+  color: rgb(57, 56, 136);
   padding: 16px;
   font-size: 16px;
-  border: none;}
+  border: none;
+text-decoration: none;
+text-decoration-style: double;
+float: left;}
 
   .navbar-brand{align-content: center;}
 
@@ -18,4 +21,8 @@
   .newgit{width: 20px;
   height: 15px;}
 
-  <a href="https://www.linkedin.com/in/phyllisia-howard-16a93717b/"><button><img class="linkedlogo" src="css/pasted image 0.png"></button></a>
+  .w3link{} 
+
+ 
+
+  .title{position: absolute};
