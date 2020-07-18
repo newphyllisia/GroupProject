@@ -95,6 +95,9 @@ background-position: center;}
 
       .iframe{padding: 100px 200px 100px 50px;}
 
-      .homejava{background-color: rgb(13, 255, 118);}
+      .homejava{background-color: rgba(16, 240, 65, 0.507);}
 
-      .buttonpara{color: rgb(15, 43, 66);}
+      .buttonpara{color: rgb(15, 43, 66); font-size: 40px;}
+
+      .olcolor{color: rgb(15, 43, 66);
+      font-size: 20px;}
