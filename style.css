@@ -15,7 +15,7 @@ width: 50%;
 line-break: auto;}
 
 
-  .table{background-color: rgba(57, 56, 136, 0.363);
+  .table{background-color: rgba(36, 194, 60, 0.774);
 font-size: 40px;
 
 top: 100px;}
@@ -65,7 +65,7 @@ font-size: 17px;
 }
 
 
-.bodyback{background-color: rgba(130, 158, 147, 0.336);}
+.bodyback{background-color: rgba(20, 16, 241, 0.315);}
 
 .buttonstart{background-color: seagreen;
 background-position: center;}
@@ -93,7 +93,7 @@ background-position: center;}
       font-size: 28px; color:rgb(57, 56, 136) ;
       }
 
-      .iframe{padding: 100px 200px 100px 50px;}
+      .iframe{padding: 100px 200px 30px 50px;}
 
       .homejava{background-color: rgba(16, 240, 65, 0.507);}
 
@@ -107,3 +107,7 @@ background-position: center;}
       .journey{background-color: rgb(22, 22, 58);
       padding:10px}
       .abovejourney{background-color: rgb(124, 172, 76);padding:10px}
+
+      .partp{color:white;font-size: 19px;
+        padding:8px 20px ;
+      background-color: rgb(31, 31, 78)}
