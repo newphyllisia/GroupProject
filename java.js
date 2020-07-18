@@ -1,18 +1,12 @@
-<script>
-/* Get the element you want displayed in fullscreen mode (a video in this example): */
-var elem = document.getElementById("myvideo");
+<button type="buttonstart" class="btn btn-success">Success</button>
 
-/* When the openFullscreen() function is executed, open the video in fullscreen.
-Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.mozRequestFullScreen) { /* Firefox */
-    elem.mozRequestFullScreen();
-  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-    elem.msRequestFullscreen();
-  }
-}
+<p>Select Button to see if this course is for you!</p>
+<p id="click"></p>
+
+<button onclick="myFunction()">Click Here to See!</button>
+<script>
+function myFunction() {
+  var text1= "Are you ready for a career change?";
+
+document.getElementById("click").inner.HTML=text1;}
 </script>
