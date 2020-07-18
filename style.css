@@ -1,5 +1,5 @@
 .navbar-brand{
-  background-color: #60cf4a2c;
+  background-color: rgb(124, 172, 76);
   color: rgb(57, 56, 136);
   padding: 16px;
   font-size: 16px;
@@ -101,3 +101,9 @@ background-position: center;}
 
       .olcolor{color: rgb(15, 43, 66);
       font-size: 20px;}
+
+      .bottomofhome{background-color: rgb(75, 128, 75);}
+
+      .journey{background-color: rgb(22, 22, 58);
+      padding:10px}
+      .abovejourney{background-color: rgb(124, 172, 76);padding:10px}

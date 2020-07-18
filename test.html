@@ -1,1 +1,37 @@
 <input type="button" value="If you said yes to the list above, click below" onclick="alert('You are the perfect TechBridge candidate')"/>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Is this course right for you?</h2>
+
+<button onclick="myFunction()">Click here to find out!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("If you answered yes to the list above, enter your name:", "Name");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Guess what " + person + "? This cohort would be a perfect fit for you!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+
+
+</script>
+
+
+<form action="resources.html"><button type="submit">Let's begin</button></form>
+
+
+
+<center><input class="homejava" type="button" value="If you said yes to the list above, Click Here!" onclick="alert('You are the perfect TechBridge candidate!')"/> <center>
+  
+</center>
+</body>
+</html>

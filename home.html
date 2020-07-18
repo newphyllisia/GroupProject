@@ -23,7 +23,7 @@
 
   <div style="position: relative; top: 4px;"><img class="techimg" src="css/techb101.PNG"></div>
 
-  <button type="buttonstart" class="btn btn-success">Success</button>
+ 
 
  <center> <strong><p class="buttonpara">Want to know if this Cohort is right for you?</p></strong></center>
 
@@ -31,20 +31,46 @@
  <center> <ol style="color: rgb(33, 33, 80);" class="olcolor">
     <li>Are you ready to start a new career or advance your current career?</li>
     <li>Are you willing to dedicate the necessary study time?</li>
+    <li>Simply want more $$?</li>
 
   </ol> </center>
 <p id="click"></p>
 
-<button onclick="myFunction()">Click Here to See!</button>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><h2>Be honest...</h2>
+
+<div class="abovejourney"><button  onclick="myFunction()">Click here to find out!</button></div>
+
+<p id="demo"></p>
+
 <script>
-  function myFunction() {
-    var text1= "Are you ready for a career change?";
+function myFunction() {
+  var txt;
+  var person = prompt("If you answered yes to the list above, enter your name:", "Name");
+  if (person == null || person == "") {
+    txt = "I think you meant to hit ok...";
+  } else {
+    txt = "Guess what " + person + "? This cohort would be a perfect fit for you!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
 
-    
- 
-  document.getElementById("click").inner.HTML= text1 ();}
-</script>
 
-<center><input class="homejava" type="button" value="If you said yes to the list above, Click Here!" onclick="alert('You are the perfect TechBridge candidate!')"/> <center>
+</script></center>
+
+
+</body>
+</html>
+
+
+
+
+
+
+  <center><form class="journey" action="resources.html"><button type="submit">Your Tech Jounery Starts Here</button></form></center>
 </body>
 </html>
